@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="aa">
+        <div class="head">
+            <h1>我是头</h1>
+        </div>
+        <div class="content">
+            <h3>我是内容</h3>
+        </div>
+        <div class="bottom">
+            <h5>我是底部</h5>
+        </div>
+    </div>
+</body>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .aa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 2000px;
+    }
+
+    .head {
+        display: flex;
+        flex: 1;
+        background-color: aquamarine;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        display: flex;
+        flex: 7;
+        background-color: rgb(156, 220, 240);
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bottom {
+        display: flex;
+        flex: 2;
+        background-color: rgb(172, 180, 178);
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+</style>
+
+</html>
